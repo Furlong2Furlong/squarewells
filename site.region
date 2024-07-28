@@ -58,6 +58,11 @@
           <nav id="secondaryNavigation" class="main-nav dropdown-click desktop-nav">
             <squarespace:navigation navigationId="secondaryNav" template="navigation" />
           </nav>
+
+            <nav id="thirdNavigation" class="main-nav dropdown-click desktop-nav">
+            <squarespace:navigation navigationId="thirdNav" template="navigation" />
+          </nav>
+          
         </div>
 
         <squarespace:block-field id="headerBlocks" label="Header Content" />
