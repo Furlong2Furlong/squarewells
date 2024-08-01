@@ -96,8 +96,10 @@
         </div>
         {.end}{.end}{.end}
       <section id="page">
-<div class="page-tite">
-{squarespace.page-title}
+<div class="page-title">
+{.sectioon page}
+<h1>{title}</h1>
+{.end}
 </div>
       <div class="main-content" data-content-field="main-content">
         {squarespace.main-content}
