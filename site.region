@@ -97,9 +97,9 @@
         {.end}{.end}{.end}
       <section id="page">
 <div class="page-title">
-{.section page}
-<h1>{page-title}</h1>
-{.end}
+
+<h1>{squarespace.page-title}</h1>
+
 </div>
       <div class="main-content" data-content-field="main-content">
         {squarespace.main-content}
