@@ -1,4 +1,3 @@
-
 /* cache busting xx */
 // SQUARESPACE TWEAK OPTIONS
 
@@ -8,11 +7,10 @@
 @siteBackground: #fff;
 
 // tweak: { "type": "value", "title": "Site Width", "min": 600, "max": 1800, "step": 10, "target": "body:not(.collection-type-gallery) #canvasWrapper", "property": "width", "category": "Site Wide Options", "showOnlyWhenPresent": "body:not(.collection-type-gallery)", "label": "Site Width" }
-@siteWidth: 1100px;
+@siteWidth: 2100px;
 
 // tweak: { "type": "value", "title": "Outer Padding", "min": 10, "max": 80, "step": 5, "target": "body", "property": [ "padding-top", "padding-left" ], "category": "Site Wide Options", "label": "Outer Padding" }
 @outerPadding: 30px;
-
 
 // tweak: { "type": "font", "title": "Headings", "target": "h1:not(.site-title), h2, h3", "loadAllVariants": "true", "category": "Site Wide Options", "label": "Headings" }
 .headings-font {
@@ -68,7 +66,6 @@
 // tweak: { "type": "color", "title": "Button Color", "target": "#page .form-wrapper input[type='submit']", "showOnlyWhenPresent": ".main-content .form-wrapper input[type='submit']", "category": "Site Wide Options", "label": "Button Color" }
 @buttonColor: #333;
 
-
 /*  Sidebar Options */
 
 // tweak: { "type": "dropdown", "title": "Sidebar Text Alignment", "options": [ "Left", "Center", "Right" ], "target": "#header", "category": "Sidebar Options", "label": "Sidebar Text Alignment" }
@@ -82,11 +79,6 @@
 // tweak: { "type": "dropdown", "title": "Sidebar Position", "options": [ "Left", "Right" ], "target": "#header", "category": "Sidebar Options", "label": "Sidebar Position" }
 
 // tweak: { "type": "checkbox", "title": "Sidebar Fixed", "default": "true", "target": "#header", "category": "Sidebar Options", "label": "Sidebar Fixed" }
-
-
-
-
-
 
 /*  Site Title / Logo Options */
 
@@ -143,13 +135,6 @@
 // tweak: { "type": "value", "title": "Mobile Site Title Size", "category": "Site Title / Logo Options", "min": 8, "max": 72, "target": "h1.site-title", "showOnlyWhenPresent": ".mobile-site-title-style-manual #logo h1.site-title", "label": "Mobile Site Title Size" }
 @mobileSiteTitleSize: 40px;
 
-
-
-
-
-
-
-
 /*  Navigation Options */
 
 // tweak: { "type": "font", "title": "Navigation", "category": "Site Navigation Options", "target": "#topNav", "label": "Navigation" }
@@ -190,12 +175,6 @@
 // tweak: { "type": "color", "title": "Secondary Navigation Color", "target": "#topNav", "category": "Site Navigation Options", "showOnlyWhenPresent": "#secondaryNavigation ul li", "label": "Secondary Navigation Color" }
 @secondaryNavColor: #bbb;
 
-
-
-
-
-
-
 /* Blog Options */
 
 // tweak: { "type": "dropdown", "title": "Blog Sidebar", "options": [ "Hide", "Left", "Right" ], "default": "Right", "target": ".main-content", "category": "Blog Options", "showOnlyWhenPresent": ".collection-type-blog", "label": "Blog Sidebar" }
@@ -214,18 +193,12 @@
 // tweak: { "type": "color", "title": "Blog Meta Data Color", "target": ".main-content, .hentry footer, .hentry .meta", "category": "Blog Options", "showOnlyWhenPresent": ".collection-type-blog", "label": "Blog Meta Data Color" }
 @metaColor: #aaa;
 
-
-
-
-
-
 /*  Gallery Options */
 
 // tweak: { "type": "dropdown", "title": "Gallery Style", "options": [ "Fit", "Fill" ], "target": "#slideshowWrapper", "js": "true", "showOnlyWhenPresent": ".collection-type-gallery", "category": "Gallery Options", "label": "Gallery Style" }
 
 // tweak: { "type": "value", "title": "Gallery Padding", "min": 0, "max": 100, "step": 5, "js": "true", "category": "Gallery Options", "showOnlyWhenPresent": ".collection-type-gallery", "target": "#slideshowWrapper", "label": "Gallery Padding" }
 @galleryPadding: 30px;
-
 
 // tweak: { "type": "checkbox", "title": "Enable Gallery Thumbnails", "default": false, "showOnlyWhenPresent": ".collection-type-gallery", "category": "Gallery Options", "target": "#slideshowWrapper", "label": "Enable Gallery Thumbnails" }
 
@@ -259,8 +232,6 @@
 // tweak: { "type": "color", "title": "Gallery Controls (Active)", "showOnlyWhenPresent": ".collection-type-gallery", "category": "Gallery Options", "target": "#slideshowWrapper, .gallery-controls", "label": "Gallery Controls (Active)" }
 @galleryControlsActive: #222;
 
-
-
 /*  Social Link Options */
 
 // tweak: { "type": "dropdown", "title": "Social Icon Style", "options": [ "Normal", "Round", "Square" ], "default": "Normal", "category": "Social Link Options", "target": "#header", "showOnlyWhenPresent": "body:not(.hide-social-icons)", "label": "Social Icon Style" }
@@ -274,9 +245,6 @@
 
 // tweak: { "type": "color", "title": "Social Icon Color", "category": "Social Link Options", "target": "#header", "showOnlyWhenPresent": "body:not(.hide-social-icons)", "label": "Social Icon Color" }
 @socialIconColor: #8e959f;
-
-
-
 
 /* Products */
 
@@ -298,8 +266,6 @@
 // tweak: { "type": "color", "title": "Category Nav Active Color", "target": "#header, #categoryNav", "category": "Products", "showOnlyWhenPresent": ".collection-type-products.show-category-navigation", "label": "Category Nav Active Color" }
 @categoryNavActiveColor: #a3a3a3;
 
-
-
 // --------------------------------------------
 // SVG Icon in Templates
 // For use in templates where social icons are
@@ -307,30 +273,30 @@
 // --------------------------------------------
 
 // Wrapper Class for SVG Icons
-@social-icons-wrapper: 'social-links';
+@social-icons-wrapper: "social-links";
 
 // Set Icon Custom Color Name from TWEAK
 @social-icons-color: @socialIconColor;
 
 // Set Class name from Standard Color Checkbox
-@social-icons-standard-color: 'tweak-template-social-icon-standard-color';
+@social-icons-standard-color: "tweak-template-social-icon-standard-color";
 
 // Set Icon Size Class Name from TWEAK
 @social-icons-size-custom: @socialIconSize;
 
 // Set Icon Style Class Names from TWEAK
-@social-icons-style-regular:            'social-icon-style-normal';
-@social-icons-style-circle--knockout:   'social-icon-style-round';
-@social-icons-style-rounded--knockout:  'social-icon-style-square';
+@social-icons-style-regular: "social-icon-style-normal";
+@social-icons-style-circle--knockout: "social-icon-style-round";
+@social-icons-style-rounded--knockout: "social-icon-style-square";
 
 // These are not used in Wells, but need to be here or the mixins
 // in svs-icon-templates.less freak out.
-@social-icons-style-circle--border:     'tweak-template-social-icon-style-circle-border';
-@social-icons-style-circle--solid:      'tweak-template-social-icon-style-circle-solid';
-@social-icons-style-square--border:     'tweak-template-social-icon-style-square-border';
-@social-icons-style-square--knockout:   'tweak-template-social-icon-style-square-knockout';
-@social-icons-style-square--solid:      'tweak-template-social-icon-style-square-solid';
-@social-icons-style-rounded--border:    'tweak-template-social-icon-style-rounded-border';
-@social-icons-style-rounded--solid:     'tweak-template-social-icon-style-rounded-solid';
+@social-icons-style-circle--border: "tweak-template-social-icon-style-circle-border";
+@social-icons-style-circle--solid: "tweak-template-social-icon-style-circle-solid";
+@social-icons-style-square--border: "tweak-template-social-icon-style-square-border";
+@social-icons-style-square--knockout: "tweak-template-social-icon-style-square-knockout";
+@social-icons-style-square--solid: "tweak-template-social-icon-style-square-solid";
+@social-icons-style-rounded--border: "tweak-template-social-icon-style-rounded-border";
+@social-icons-style-rounded--solid: "tweak-template-social-icon-style-rounded-solid";
 
-@import 'svg-icon-templates';
+@import "svg-icon-templates";
