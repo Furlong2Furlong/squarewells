@@ -97,7 +97,7 @@
         {.end}{.end}{.end}
       <section id="page">
 <div class="page-title">
-{.sectioon page}
+{.section page}
 <h1>{title}</h1>
 {.end}
 </div>
