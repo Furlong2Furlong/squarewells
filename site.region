@@ -98,7 +98,7 @@
       <section id="page">
 
 <div class="page-title">
-{if !is home}
+{if !home}
 <h1>{collection.title}</h1>
 
 </div>
