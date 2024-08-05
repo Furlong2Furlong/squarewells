@@ -96,10 +96,11 @@
         </div>
         {.end}{.end}{.end}
       <section id="page">
+      {.if !is-homepage}
 <div class="page-title">
 
 <h1>{collection.title}</h1>
-
+{.end}
 </div>
       <div class="main-content" data-content-field="main-content">
         {squarespace.main-content}
