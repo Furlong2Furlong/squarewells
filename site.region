@@ -98,11 +98,11 @@
       <section id="page">
 
 <div class="page-title">
-{if !homepage}
-<h1>{collection.title}</h1>
-
-</div>
-{.end}
+ {.if !collection.title.equals("Home")}
+          <div class="page-title">
+            <h1>{collection.title}</h1>
+          </div>
+        {.end}
       <div class="main-content" data-content-field="main-content">
         {squarespace.main-content}
      
