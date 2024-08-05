@@ -96,7 +96,7 @@
         </div>
         {.end}{.end}{.end}
       <section id="page">
-      {.if !is-homepage}
+      {.if !main-content}
 <div class="page-title">
 
 <h1>{collection.title}</h1>
