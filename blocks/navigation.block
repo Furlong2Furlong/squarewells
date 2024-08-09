@@ -1,6 +1,7 @@
 <ul>
   {.repeated section items}
-<li class="{.section collection}{typeLabel}-collection{.end}{.section active} active-link{.end}{.folder?} folder open{.end}{.if folderActive} active-link active-folder{.end}{.section externalLink} external-link{.end}">
+
+      <li class="{.section collection}{typeLabel}-collection{.end}{.section active} active-link{.end}{.folder?} folder{.end}{.if folderActive} active-link active-folder{.end}{.section externalLink} external-link{.end}">
 
         {.folder?}
 
