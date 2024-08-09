@@ -23,7 +23,7 @@
             </ul>
           </div>
 
-        {.or}
+        
 
           {.section collection}
             <a href="{fullUrl}">{navigationTitle}</a>
